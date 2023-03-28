@@ -1,15 +1,14 @@
 import React from 'react'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
-function Nav1() {
+function Header() {
   return (
-    <div>
-         <Navbar bg="light" expand="lg">
+    <Navbar collapseOnSelect expand="xxl" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">LMS</Navbar.Brand>
+      <Navbar.Brand href="#home">LMS</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">  
+          <Nav className="justify-content-end flex-grow-1 pe-3">  
 
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
@@ -22,7 +21,7 @@ function Nav1() {
               <NavDropdown.Item href="/Register">
                Register
               </NavDropdown.Item>
-              <NavDropdown.Item href="/">
+              <NavDropdown.Item href="/dashteacher">
                dashboard
               </NavDropdown.Item >
               
@@ -44,11 +43,8 @@ function Nav1() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-        
-        
-
-    </div>
+    
   )
 }
 
-export default Nav1
+export default Header

@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Coursescard from './Coursescard';
-import Nav1 from './Nav1';
+
 import Latestcourse from './Latestcourse';
 
 

@@ -1,18 +1,17 @@
 import React from 'react'
-import Sidebar from './Sidebar'
 import { Link } from 'react-router-dom'
+import Sidebarteacher from './Sidebarteacher'
 
-
-function Mycourses() {
+function Myusers() {
   return (
     <div className='container mt-4'>
     <div className='row'>
         <aside className='col-md-3'>
-            <Sidebar/>
+            <Sidebarteacher/>
         </aside>
         <section className='col-md-9'>
             <div className='card'>
-                <h5 className='card-header'>My Courses</h5>
+                <h5 className='card-header'>Myusers</h5>
                 <div className='card-body'>
                     <table className='table table-bordered'>
                         <thead>
@@ -35,7 +34,8 @@ function Mycourses() {
         </section>
     </div>
 </div>
+    
   )
 }
 
-export default Mycourses
+export default Myusers

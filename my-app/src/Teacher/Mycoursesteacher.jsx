@@ -1,18 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Sidebar from './Sidebar'
+import Sidebarteacher from './Sidebarteacher'
 
-
-function Recomendedcourses() {
+function Mycoursesteacher() {
   return (
-    <div className='container mt-4'>
+    <div>
+         <div className='container mt-4'>
             <div className='row'>
                 <aside className='col-md-3'>
-                    <Sidebar/>
+                    <Sidebarteacher />
                 </aside>
                 <section className='col-md-9'>
                     <div className='card'>
-                        <h5 className='card-header'>Recommended Courses</h5>
+                        <h5 className='card-header'>My Courses</h5>
                         <div className='card-body'>
                             <table className='table table-bordered'>
                                 <thead>
@@ -35,7 +35,8 @@ function Recomendedcourses() {
                 </section>
             </div>
         </div>
+    </div>
   )
 }
 
-export default Recomendedcourses
+export default Mycoursesteacher

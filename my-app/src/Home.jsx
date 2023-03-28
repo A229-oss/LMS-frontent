@@ -10,22 +10,22 @@ function Home() {
     <div className='row'>
         <div className='col-md-3'>
             <div className="card">
-                <img src="..." className="card-img-top" alt="..."/>
+                <img src="https://www.itechnasik.com/wp-content/uploads/2019/04/product.jpg" className="card-img-top" alt="..."/>
                 <div className="card-body">
-                    <h5 className="card-title"><Link to='/detail/1'>Card title</Link></h5>
+                <h5 className="card-title"><a href='/Latestcourse'>Course details</a></h5>
                 </div>
             </div>
         </div>
     </div>
     {/* end of latest Courses */}
     {/* Popular Courses */}
-    <h3 className='pb-1 mb-4 mt-5'>Popular Courses<a href='#' className='float-end'>see all</a></h3>
+    <h3 className='pb-1 mb-4 mt-5'>Popular Courses<a href='' className='float-end'>see all</a></h3>
     <div className='row'>
         <div className='col-md-3'>
             <div className="card">
-                <img src="..." className="card-img-top" alt="..."/>
+                <img src="https://contentstatic.techgig.com/thumb/msid-80031808,width-460,resizemode-4/5-Programming-languages-to-kickstart-your-tech-career-in-2021.jpg?150543." className="card-img-top" alt="..."/>
                 <div className="card-body">
-                    <h5 className="card-title"><a href='#'>Card title</a></h5>
+                    <h5 className="card-title"><a href='/courscard'>Course details</a></h5>
                 </div>
             </div>
         </div>
@@ -36,9 +36,9 @@ function Home() {
     <div className='row'>
         <div className='col-md-3'>
             <div className="card">
-                <img src="..." className="card-img-top" alt="..."/>
+                <img src="https://prod-discovery.edx-cdn.org/media/programs/card_images/75f70b19-b26d-41bf-81a2-36fb8dded8f4-e5d0ed35edf2.jpg" className="card-img-top" alt="..."/>
                 <div className="card-body">
-                    <h5 className="card-title"><a href='#'>Card title</a></h5>
+                    <h5 className="card-title"><a href=''>Course details</a></h5>
                 </div>
             </div>
         </div>

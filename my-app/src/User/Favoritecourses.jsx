@@ -1,11 +1,15 @@
 import React from 'react'
+import Sidebar from './Sidebar'
+import { Link } from 'react-router-dom'
+
+
 
 function Favoritecourses() {
   return (
     <div className='container mt-4'>
             <div className='row'>
                 <aside className='col-md-3'>
-                    <Sidebar />
+                    <Sidebar/>
                 </aside>
                 <section className='col-md-9'>
                     <div className='card'>
@@ -22,7 +26,7 @@ function Favoritecourses() {
                                 <tbody>
                                     <tr>
                                         <td>Python dev</td>
-                                        <td><Link to=''>Aswin</Link></td>
+                                        <td><Link to=''>Ashin</Link></td>
                                         <td><button className='btn btn-danger btn-sm'>Delete</button></td>
                                     </tr>
                                 </tbody>

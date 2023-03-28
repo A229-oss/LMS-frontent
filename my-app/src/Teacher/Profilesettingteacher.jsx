@@ -1,12 +1,12 @@
 import React from 'react'
-import Sidebar from './Sidebar'
+import Sidebarteacher from './Sidebarteacher'
 
-function Profilesetting() {
+function Profilesettingteacher() {
   return (
     <div className='container mt-4'>
             <div className='row'>
                 <aside className='col-md-3'>
-                    <Sidebar />
+                    <Sidebarteacher />
                 </aside>
                 <section className='col-md-9'>
                     <div className='card'>
@@ -49,8 +49,8 @@ function Profilesetting() {
                 </section>
             </div>
         </div>
-
+    
   )
 }
 
-export default Profilesetting
+export default Profilesettingteacher

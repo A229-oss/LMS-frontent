@@ -5,38 +5,43 @@ import { MDBBtn, MDBCheckbox, MDBCol, MDBContainer, MDBIcon, MDBInput, MDBRow } 
 function Login() {
   return (
     
-    
     <MDBContainer fluid className="p-3 my-5">
 
-      <MDBRow>
+    <MDBRow>
 
-        <MDBCol col='10' md='6'>
-          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" alt="Phone image" />
-        </MDBCol>
+      <MDBCol col='10' md='6'>
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" alt="Phone image" />
+      </MDBCol>
 
-        <MDBCol col='4' md='6'>
-            <h1>Login</h1>
-
-
-          <MDBInput wrapperClass='mb-4' label='Username' id='formControlLg' type='email' size="lg"/>
-          <MDBInput wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg"/>
+      <MDBCol col='4' md='6'>
+          <h1>Login</h1>
 
 
-          <div className="d-flex justify-content-between mx-4 mb-4">
-            <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
-            <a href="!#">Forgot password?</a>
-          </div>
+      <div className="mb-3">
+          <label style={{float:"left"}} for="exampleInputEmail1" class="form-label">Username</label>
+          <input  type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+      </div>
+      <div className="mb-3">
+          <label style={{float:"left"}} for="exampleInputEmail1" class="form-label">Password</label>
+          <input type="text" size='sm' className="form-control" id="exampleInputEmail1"  aria-describedby="emailHelp"/>
+      </div>
 
-          <MDBBtn className="mb-4 w-100" size="lg">Log in</MDBBtn>
 
-         
+        <div className="d-flex justify-content-between mx-4 mb-4">
+          <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <MDBBtn className="mb-4 w-1" size="lg">Log in</MDBBtn>
+
+       
 
 
-        </MDBCol>
+      </MDBCol>
 
-      </MDBRow>
+    </MDBRow>
 
-    </MDBContainer>
+  </MDBContainer>
   )
 }
 
